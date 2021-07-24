@@ -1,5 +1,5 @@
 #base image
-FROM node:current-buster-slim
+FROM node:16.5.0-slim
 
 # set working directory
 RUN mkdir /usr/src/app
